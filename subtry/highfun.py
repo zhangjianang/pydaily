@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#-*- encoding:UTF-8 -*-
+# -*- coding:utf-8 -*-
 
 myl = ['adam', 'LISA', 'barT']
 def fun(istr):
@@ -25,7 +25,27 @@ def  efun():
         f.append(fun(i))
     return f
 
-f1,f2,f3 = efun()
+#匿名函数
+def nfun():
+    f = []
+    for i in range(1,4):
+        def fun(tmp):
+            return lambda :tmp*tmp
+        f.append(fun(i))
+    return f
+
+f1,f2,f3 = nfun()
 print f1()
 print f2()
 print f3()
+
+""""""
+print u"#偏函数"
+def int2(num):
+    return int(num,base=2)
+print int2("110")
+
+import functools
+
+int2 = functools.partial(int,base=2)
+print int2("101")
