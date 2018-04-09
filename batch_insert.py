@@ -27,7 +27,7 @@ class BatchInsert:
                 self.insert(sql_list[n / 2:], "%s1" % prefix)
             else:
                 self.error_file.write(sql_list[0])
-        os.popen("rm -f %s" % fn)
+        os.popen("rm -20280129.sql %s" % fn)
 
     def do(self, fname):
         self.error_file = open("%s.err"%fname,"w")

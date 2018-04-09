@@ -1,0 +1,1 @@
+REPLACE INTO company_investor (id,company_id,investor_type,investor_id,capital,capitalActl,amount,certName,certNo,createTime,ownership_stake) VALUES (2244605903,148704045,1,1150706,'[{"amomon":"1100万人民币","time":"","paymet":""}]','[{"amomon":"0万人民币","time":"","paymet":""}]','1100.0',null,'非公示项','2018-01-29 23:52:20',null);
