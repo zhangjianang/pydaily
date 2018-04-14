@@ -1,6 +1,10 @@
 #!/usr/bin/python
-# -*- coding:utf-8 -*-
-import re,sys,os
+#encoding:utf8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+import re,os
+
 class MyGenCSV:
     # 单独测试
     # common_tab = ["company"]
@@ -8,16 +12,14 @@ class MyGenCSV:
     # report_conn_tab = []
     # report_s_conn_tab = []
     common_tab = ["human","company"]
-    company_tab = ["annual_report","company_abnormal_info","company_category_code_20170411","company_change_info",
-                   "company_check_info","company_equity_info", "company_illegal_info",
+    company_tab = ["annual_report","company_abnormal_info","company_category_20170411",
+                   "company_change_info","company_check_info","company_equity_info", "company_illegal_info",
                    "company_investor", "company_mortgage_info", "company_punishment_info", "company_staff",
                    "mortgage_change_info", "mortgage_pawn_info", "mortgage_people_info"]
     report_conn_tab = ["report_change_record","report_equity_change_info",
                        "report_out_guarantee_info","report_webinfo"]
     report_s_conn_tab = ["report_outbound_investment","report_shareholder"]
 
-    delete_multi = []
-    keep_line_info = {'company_category_demo':{'del_val':{'company_id_val':'line_num'},'del_index':'company_id','company_id_val':{'tid':'line_num'}}}
     update_files = {}
     delete_files = {}
     wrong_files = {}
@@ -34,9 +36,14 @@ class MyGenCSV:
         self.total_line_num = 0
         self.origin_line_num = 0
         self.date = date
+        self.keep_line_info = {'company_category_demo': {'del_val': {'company_id_val': 'line_num'}, 'del_index': 'company_id',
+                                      'company_id_val': {'tid': 'line_num'}}}
+        self.comp_conn_id = {}
+        self.annual_conn_id = {}
         # self.path = ("../%s" % (self.date))
-        self.path = ("/mnt1/gs/gs_split/%s" % (self.date))
-        self.srcpath = ("/mnt1/gs/download/%s" % (self.date))
+        # self.srcpath = ("../%s" % (self.date))
+        self.path = ("/mnt2/gs/gs_split/%s" % (self.date))
+        self.srcpath = ("/mnt2/gs/gs_src/%s" % (self.date))
         if os.path.exists(self.path):
             print 'file exist'
         else:
@@ -107,19 +114,45 @@ class MyGenCSV:
                 preline=preline.strip()
                 terms = self.replaceCommaInQuotes(preline)
                 keys = self.stripSpaceAndBracket(details[0]).split(self.__FIELD_TERMINATER)
-                self.total_line_num += 1
                 if len(keys) == len(terms):
+                    self.total_line_num += 1
                     self.addIdAndLineNum(table, keys, terms, self.total_line_num)
                     terms.insert(self.__INSERT_LINE_COL, str(self.total_line_num))
+                    terms = self.replaceQuota(terms)
                     self.update_files[table].write(self.__FIELD_TERMINATER.join(terms)+"\n")
                 else:
                     self.wrong_files[table].write(self.__FIELD_TERMINATER.join(terms)+"\n")
                 preline = ""
 
+    def replaceQuota(self, terms):
+        nterms =[]
+        for term in terms:
+            if term.startswith("'") and term.endswith("'"):
+                term = term.replace(self.__FIELD_TERMINATER_UNIQ,"")
+                nterms.append(term.strip("'"))
+            else:
+                nterms.append(term)
+        return nterms
+    # 增加关联id信息
+    def addCompConnId(self,table,id):
+        if table in self.common_tab:
+            if not self.comp_conn_id.has_key(id):
+                self.comp_conn_id[id] = 1
+        elif table in (self.report_conn_tab +self.report_s_conn_tab):
+            if not self.annual_conn_id.has_key(id):
+                self.annual_conn_id[id] = 1
+
+    def saveConnId(self):
+        with open("%s/comp_conn_id.csv"%self.path,'w') as cfw:
+            cfw.write("\n".join(self.comp_conn_id.keys()))
+        with open("%s/annual_conn_id.csv"%self.path,'w') as afw:
+            afw.write("\n".join(self.annual_conn_id.keys()))
+
     # 增加去重信息
     def addIdAndLineNum(self,table,keys,terms,line_num):
         knum = keys.index(self.keep_line_info[table]['del_index'])
         if knum >= 0 and knum < len(terms):
+            self.addCompConnId(table,terms[knum])
             self.keep_line_info[table]['key_row_num'] = knum
             if self.keep_line_info[table].has_key(terms[knum]):
                 if self.keep_line_info[table][terms[knum]].has_key(terms[0]):
@@ -144,8 +177,6 @@ class MyGenCSV:
         preterm = ""
         for curterm in items:
             curterm = curterm.strip()
-            if curterm == "26842246":
-                print "ok"
             if preterm == "":
                 preterm = curterm
             else:
@@ -172,6 +203,22 @@ class MyGenCSV:
                     return True
         return False
 
+    #单独获取 companyid
+    def getCompanyId(self, tb):
+        find_company_reg = re.compile(r"\(([0-9]+)\,", re.M | re.I | re.S)
+        allid = []
+        with open("%s/u%s.sql" % (self.path, self.date)) as fr:
+            for line in fr:
+                if line.startswith("REPLACE INTO %s " % tb):
+                    findobj = find_company_reg.findall(line)
+                    if findobj:
+                        allid += findobj
+        uid = list(set(allid))
+
+        with open("%s/%s_update_id.csv" % (self.path, tb), 'a') as fw:
+            fw.write("\n".join(uid))
+        return len(uid)
+
     def checkKeyValuePair(self,key,num):
         keys = key.split(self.__FIELD_TERMINATER)
         if len(keys)==num:
@@ -180,6 +227,7 @@ class MyGenCSV:
             return False
 
     def removeDuplicatedRow(self):
+        print '空间：',sys.getsizeof(self.keep_line_info)
         for table in self.common_tab + self.company_tab + self.report_s_conn_tab + self.report_conn_tab:
             self.update_files[table].close()
             uw = open("%s/%s_update_u.csv" % (self.path, table),'a')
@@ -226,7 +274,8 @@ class MyGenCSV:
                 if file.startswith(self.date):
                     self.rmEnterAndSplit(self.srcpath, file)
             self.removeDuplicatedRow()
+            self.saveConnId()
 
 if __name__ == '__main__':
-    MyGenCSV("20180401")
-    # MyGenCSV(sys.argv[1])
+    # MyGenCSV("20181")
+    MyGenCSV(sys.argv[1])

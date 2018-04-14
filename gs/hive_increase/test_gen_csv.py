@@ -5,7 +5,7 @@ from gs.hive_increase.gen_csv import MyGenCSV
 
 class TestGenCsv2(unittest.TestCase):
     def setUp(self):
-        self.gcsv = MyGenCSV('2018')
+        self.gcsv = MyGenCSV('20181')
         ##实例化了被测试模块中的类
 
     def skipTest(self, reason):
@@ -17,6 +17,11 @@ class TestGenCsv2(unittest.TestCase):
         print len(self.gcsv.stripSpaceAndBracket(str).split(","))
         print self.gcsv.stripSpaceAndBracket(str).split(",")
         print str
+
+    def test_replaceComma(self):
+        terms = "1737333491,2252495883,22,'销售额或\t营业收入是否公示','','','2015-05-11','2018-03-05'".split(",")
+        re = self.gcsv.replaceQuota(terms)
+        print "\t".join(re)
 
     def testCheckEscapePair(self):
         with open("./test.txt") as fr:

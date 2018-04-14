@@ -1,6 +1,11 @@
 #!/usr/bin/python
-# -*- coding:utf-8 -*-
-import sys,os,json,commands
+#encoding:utf8
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+import os,json,re
 
 class LoadHiveNumCompare:
     common_tab = ["human", "company"]
@@ -23,10 +28,10 @@ class LoadHiveNumCompare:
                           }
                      }
     def __init__(self,date):
-        self.hqlpath = "/data/gs/gs_check/%s" % date
-        self.csvpath = "/data/gs/gs_split/%s" % date
-        # self.hqlpath = "../%s" % date
-        # self.csvpath = "../%s" % date
+        # self.hqlpath = "/mnt2/gs/gs_check/%s" % date
+        # self.csvpath = "/mnt2/gs/gs_split/%s" % date
+        self.hqlpath = "../%s" % date
+        self.csvpath = "../%s" % date
         self.hivenuminfo = {}
         self.init_hive_num()
 
@@ -41,63 +46,60 @@ class LoadHiveNumCompare:
                     continue
                 line = line.lstrip('[').rstrip(']\n')
                 items = line.split(',')
+                if items < 2:
+                    continue
                 self.hivenuminfo[items[0]] = items[1]
 
     def hive_check_num(self):
         for tb in self.common_tab + self.company_tab + self.report_s_conn_tab + self.report_conn_tab:
-            if tb == "human":
-                print 'ok'
             self.analytic_info[tb] = {}
-            try:
-                # h_update_res = os.popen("/usr/bin/hive -e 'select count(*) from %s.%s_update;'"%(self.dbtoday,tb)).read().splitlines()[0]
-                if self.hivenuminfo.has_key("%s_update" % tb):
-                    h_update_res = self.hivenuminfo["%s_update" % tb]
-                else:
-                    h_update_res = -1
-                w_update_res = os.popen("wc -l %s/%s_update_u.csv"%(self.csvpath,tb)).read().splitlines()[0]
-                # status, w_update_res = commands.getstatusoutput("wc -l %s/%s_update_u.csv"%(self.csvpath,tb))
-                self.analytic_info[tb]["update"] = {"h_update_count": h_update_res,
-                                                     "csv_update_count": w_update_res.split()[0]}
-                if int(h_update_res) == int(w_update_res.split()[0]):
-                    self.analytic_info[tb]["update"].update({"equal": "yes"})
-                else:
-                    self.analytic_info[tb]["update"].update({"equal": "no"})
+            if self.hivenuminfo.has_key("%s_update" % tb):
+                h_update_res = self.hivenuminfo["%s_update" % tb]
+            else:
+                h_update_res = -1
 
-                if self.common_tab.count(tb) == 1:
-                    idcount = self.get_id_count(tb)
-                    self.analytic_info[tb]["update"].update({"src_id_count": idcount})
-                    if self.analytic_info[tb]["update"]["equal"] == "yes":
-                        if idcount != int(self.analytic_info[tb]["update"]["h_update_count"]):
-                            self.analytic_info[tb]["update"]["equal"] = "no"
-                else:
-                    if self.hivenuminfo.has_key("%s_delete" % tb):
-                        h_delete_res = self.hivenuminfo["%s_delete" % tb]
-                    else:
-                        h_delete_res = -1
-                    w_delete_res = os.popen("wc -l %s/%s_delete.csv" % (self.csvpath, tb)).read().splitlines()[0]
-                    self.analytic_info[tb]["delete"] = {"h_delete_count": h_delete_res,
-                                                        "csv_delete_count": w_delete_res.split()[0]}
-                    if int(h_delete_res) == int(w_delete_res.split()[0]):
-                        self.analytic_info[tb]["delete"].update({"equal": "yes"})
-                    else:
-                        self.analytic_info[tb]["delete"].update({"equal": "no"})
-            except Exception,e:
-                print e
+            c_update_num = self.get_file_count("%s/%s_update_u.csv" % (self.csvpath, tb))
+
+            self.analytic_info[tb]["update"] = {"h_update_count": h_update_res,
+                                                 "csv_update_count": str(c_update_num)}
+            if int(h_update_res) == c_update_num:
+                self.analytic_info[tb]["update"].update({"equal": "yes"})
+            else:
+                self.analytic_info[tb]["update"].update({"equal": "no"})
+
+            if self.hivenuminfo.has_key("%s_delete" % tb):
+                h_delete_res = self.hivenuminfo["%s_delete" % tb]
+            else:
+                h_delete_res = -1
+            w_delete_num = self.get_file_count("%s/%s_delete.csv" % (self.csvpath, tb))
+            self.analytic_info[tb]["delete"] = {"h_delete_count": h_delete_res,
+                                                "csv_delete_count": str(w_delete_num)}
+            if int(h_delete_res) == w_delete_num:
+                self.analytic_info[tb]["delete"].update({"equal": "yes"})
+            else:
+                self.analytic_info[tb]["delete"].update({"equal": "no"})
+            # except Exception,e:
+            #     print e
         with open("%s/compare_num.json" % self.hqlpath, 'a') as fw:
             fw.write(json.dumps(self.analytic_info))
         print self.analytic_info
 
-    def get_id_count(self,tb):
-        if not tb == "company":
-            return 0
-        try:
-            idcount = os.popen("wc -l %s/%s_update_u.csv" % (self.hqlpath, tb)).read().splitlines()[0]
-            return int(idcount.split()[0])
-        except Exception,e:
-            print(e)
 
+
+    def get_file_count(self, file):
+        if not os.path.exists(file):
+            return -1
+        count = 0
+        thefile = open(file, 'rb')
+        while True:
+            buffer = thefile.read(8192 * 1024)
+            if not buffer:
+                break
+            count += buffer.count('\n')
+        thefile.close()
+        return count
 
 if __name__ == "__main__":
-    # lc = LoadHiveNumCompare("20181")
-    lc = LoadHiveNumCompare(sys.argv[1])
+    lc = LoadHiveNumCompare("20181")
+    # lc = LoadHiveNumCompare(sys.argv[1])
     lc.hive_check_num()

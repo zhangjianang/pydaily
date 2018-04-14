@@ -2,52 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="929abe53-4293-4eea-8f22-a40319a65738" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/20180301/测试预期结果" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/es_update.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/extra_data/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/extra_data/exdata.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/gen_map.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/gen_es.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/load_compare.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/load_hive.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/os_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/send_mail_check.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/split.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/test.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/test_arg.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/hive_increase/test_load_hive.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/parse/extract_table_name.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/parse/my_parse_try.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/parse/sqlparse_try.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/split.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/testPairFile/singleTest.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/testPairFile/test.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/testSplit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/test_split.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/wrong.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/yc/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gs/yc/segment_sql.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/multi/del_try.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/multi/multi_try.py" />
-      <change beforePath="$PROJECT_DIR$/batch_insert.py" afterPath="$PROJECT_DIR$/batch_insert.py" />
-      <change beforePath="$PROJECT_DIR$/subtry/0119.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/0120.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id_0.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id_1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id_2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id_3.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/20180124/update_id_4.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/a.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/b.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/c.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/same.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subtry/same2.txt" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gs/20181/human_compare.json" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/gs/20181/compare_num.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" afterPath="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/gen_es.py" afterPath="$PROJECT_DIR$/gs/hive_increase/gen_es.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/load_compare.py" afterPath="$PROJECT_DIR$/gs/hive_increase/load_compare.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/load_hive.py" afterPath="$PROJECT_DIR$/gs/hive_increase/load_hive.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" afterPath="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/send_mail_check.py" afterPath="$PROJECT_DIR$/gs/hive_increase/send_mail_check.py" />
+      <change beforePath="$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py" afterPath="$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,18 +26,8 @@
       <file leaf-file-name="gen_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_hive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_hive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+            <state relative-caret-position="-6318">
+              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -81,8 +36,28 @@
       <file leaf-file-name="gen_es.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gs/hive_increase/gen_es.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="69" />
+            <state relative-caret-position="300">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load_hive.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_hive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hqcopy.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gs/20180324/hqcopy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +66,8 @@
       <file leaf-file-name="load_compare.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_compare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="-211">
+              <caret line="13" column="75" lean-forward="false" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -101,60 +76,18 @@
       <file leaf-file-name="load_num_compare.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
-              <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+            <state relative-caret-position="373">
+              <caret line="70" column="65" lean-forward="false" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hivenum.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gs/20181/hivenum.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_mail_check.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="send_mail_check.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="98" column="32" lean-forward="true" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-              <folding>
-                <element signature="e#41#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="names.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gs/extra_data/names.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="human_compare.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gs/20181/human_compare.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compare_num.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gs/20181/compare_num.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="673">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -171,39 +104,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>where</find>
-      <find>insert</find>
-      <find>upath</find>
-      <find>hive_check_info</find>
-      <find>config</find>
-      <find>company</find>
-      <find>__FIELD_TERMINATER</find>
-      <find>76660483</find>
-      <find>dump</find>
-      <find>hmiss</find>
-      <find>match</find>
-      <find>from</find>
-      <find>keep_line_info</find>
-      <find>path</find>
-      <find>1388</find>
-      <find>csvpath</find>
-      <find>bulk_data</find>
-      <find>json</find>
-      <find>host</find>
-      <find>_index</find>
-      <find>has</find>
-      <find>get_compare_num_info</find>
-      <find>'</find>
-      <find>compare</find>
-      <find>sys</find>
-      <find>diff_info</find>
-      <find>analytic_info</find>
       <find>get</find>
-      <find>get_id_count</find>
       <find>get_compare_info</find>
+      <find>10395074</find>
+      <find>1688274460</find>
+      <find>hcols</find>
+      <find>delete_multi</find>
+      <find>addIdAndLineNum</find>
+      <find>compare_num</find>
+      <find>replaceGen</find>
+      <find />
+      <find>src_id</find>
+      <find>个体</find>
+      <find>wrong_files</find>
+      <find>fcompare</find>
+      <find>clean_command_file</find>
+      <find>open</find>
+      <find>human</find>
+      <find>u</find>
+      <find>self.alldata</find>
+      <find>get_id_count</find>
+      <find>path</find>
+      <find>repla</find>
+      <find>company_category_20170411</find>
+      <find>company_category</find>
+      <find>__FIELD_TERMINATER</find>
+      <find>annualreport_id</find>
+      <find>.id</find>
+      <find>company_id</find>
+      <find>load_data</find>
+      <find>csvpath</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
+      <replace>hitems</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -212,12 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gs/extra_data/names.txt" />
-        <option value="$PROJECT_DIR$/gs/extra_data/testnames_base.txt" />
-        <option value="$PROJECT_DIR$/gs/extra_data/testnames.txt" />
-        <option value="$PROJECT_DIR$/gs/extra_data/exdata.py" />
-        <option value="$PROJECT_DIR$/gs/20180131/annual_report_update.csv" />
-        <option value="$PROJECT_DIR$/gs/gen_csv.py" />
         <option value="$PROJECT_DIR$/gs/testPairFile/load_hive.py" />
         <option value="$PROJECT_DIR$/gs/test_gen_csv.py" />
         <option value="$PROJECT_DIR$/gs/test_load_hive/testcsv" />
@@ -247,21 +175,27 @@
         <option value="$PROJECT_DIR$/gs/20180401/20180401_3.sql" />
         <option value="$PROJECT_DIR$/gs/hive_increase/test_gen_csv2.py" />
         <option value="$PROJECT_DIR$/gs/hive_increase/test.txt" />
-        <option value="$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py" />
         <option value="$PROJECT_DIR$/gs/20180322/hql.txt" />
         <option value="$PROJECT_DIR$/gs/20180401/u20180401.sql" />
         <option value="$PROJECT_DIR$/gs/hive_increase/os_test.py" />
-        <option value="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" />
         <option value="$PROJECT_DIR$/gs/20181/human_hive_get.txt" />
-        <option value="$PROJECT_DIR$/gs/hive_increase/gen_es.py" />
         <option value="$PROJECT_DIR$/gs/hive_increase/test_load_hive.py" />
         <option value="$PROJECT_DIR$/gs/hive_increase/test_arg.py" />
         <option value="$PROJECT_DIR$/gs/20181/compare_info" />
+        <option value="$PROJECT_DIR$/gs/20181/splitinfo.txt" />
         <option value="$PROJECT_DIR$/gs/20181/compare_num.json" />
-        <option value="$PROJECT_DIR$/gs/20181/hivenum.txt" />
-        <option value="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" />
-        <option value="$PROJECT_DIR$/gs/hive_increase/load_hive.py" />
+        <option value="$PROJECT_DIR$/gs/20181/es_info" />
+        <option value="$PROJECT_DIR$/gs/hive_increase/gen_es.py" />
+        <option value="$PROJECT_DIR$/gs/20181/es_info.txt" />
+        <option value="$PROJECT_DIR$/gs/20181/es_gen_t.txt" />
         <option value="$PROJECT_DIR$/gs/hive_increase/load_compare.py" />
+        <option value="$PROJECT_DIR$/gs/20181/hivenum.txt" />
+        <option value="$PROJECT_DIR$/gs/20181/1compare_num.json" />
+        <option value="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" />
+        <option value="$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py" />
+        <option value="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" />
+        <option value="$PROJECT_DIR$/gs/20180324/hqload.txt" />
+        <option value="$PROJECT_DIR$/gs/hive_increase/load_hive.py" />
         <option value="$PROJECT_DIR$/gs/hive_increase/send_mail_check.py" />
       </list>
     </option>
@@ -304,48 +238,13 @@
               <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
               <item name="angpy" type="462c0819:PsiDirectoryNode" />
               <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="20180301" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="20180323" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="201803011" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_data" type="462c0819:PsiDirectoryNode" />
+              <item name="20180324" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
               <item name="angpy" type="462c0819:PsiDirectoryNode" />
               <item name="gs" type="462c0819:PsiDirectoryNode" />
               <item name="hive_increase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="parse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="gs" type="462c0819:PsiDirectoryNode" />
-              <item name="yc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angpy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angpy" type="462c0819:PsiDirectoryNode" />
-              <item name="multi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,8 +285,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load_num_compare">
-    <configuration name="gen_es" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.load_hive">
+    <configuration name="gen_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -399,13 +298,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="angpy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/gen_es.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/gen_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="load_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="load_hive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -417,49 +316,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="angpy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/load_compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/load_hive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="load_num_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gs/hive_increase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="angpy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/load_num_compare.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="send_mail_check" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gs/hive_increase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="angpy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gs/hive_increase/send_mail_check.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests in test_load_hive.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_gen_csv.TestGenCsv2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -470,23 +333,51 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="angpy" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/gs/hive_increase/test_load_hive.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_gen_csv.TestGenCsv2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_StripSpaceAndBracket" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gs/hive_increase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="angpy" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_gen_csv.TestGenCsv2.test_StripSpaceAndBracket&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gs/hive_increase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="angpy" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_gen_csv.TestGenCsv2.test_replaceComma&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_load_hive.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gen_es" />
-      <item index="2" class="java.lang.String" itemvalue="Python.load_compare" />
-      <item index="3" class="java.lang.String" itemvalue="Python.send_mail_check" />
-      <item index="4" class="java.lang.String" itemvalue="Python.load_num_compare" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2.test_StripSpaceAndBracket" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gen_csv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.load_hive" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.load_num_compare" />
-        <item index="1" class="java.lang.String" itemvalue="Python.send_mail_check" />
-        <item index="2" class="java.lang.String" itemvalue="Python.load_compare" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_load_hive.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gen_es" />
+        <item index="0" class="java.lang.String" itemvalue="Python.load_hive" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gen_csv" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_gen_csv.TestGenCsv2.test_StripSpaceAndBracket" />
       </list>
     </recent_temporary>
   </component>
@@ -518,35 +409,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 12m 24s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2 - 2018.04.12 at 20h 41m 59s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 12m 37s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2 - 2018.04.12 at 20h 49m 56s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 13m 08s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2 - 2018.04.12 at 20h 52m 31s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 14m 02s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2 - 2018.04.12 at 20h 53m 19s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 14m 21s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2 - 2018.04.12 at 21h 03m 27s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 14m 48s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2_test_replaceComma - 2018.04.12 at 20h 33m 13s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 15m 14s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2_test_replaceComma - 2018.04.12 at 20h 43m 27s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 15m 52s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2_test_replaceComma - 2018.04.12 at 20h 50m 56s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.03 at 17h 16m 01s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2_test_replaceComma - 2018.04.12 at 20h 54m 27s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_load_hive_py - 2018.04.04 at 18h 09m 16s.xml">
-      <configuration name="Unittests in test_load_hive.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gen_csv_TestGenCsv2_test_replaceComma - 2018.04.12 at 20h 54m 37s.xml">
+      <configuration name="Unittests for test_gen_csv.TestGenCsv2.test_replaceComma" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -560,19 +451,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16491044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17913593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.594124" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3569097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22306855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06855278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19260065" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" x="41" y="487" width="1898" height="339" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3547334" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" x="41" y="487" width="1898" height="339" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -639,18 +529,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py</url>
-          <line>153</line>
+          <line>184</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py</url>
-          <line>152</line>
+          <line>183</line>
           <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/os_test.py</url>
@@ -664,43 +549,73 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
-          <line>34</line>
+          <line>40</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
-          <line>93</line>
+          <line>132</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py</url>
-          <line>58</line>
+          <line>62</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="169" />
+          <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/load_compare.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/gen_es.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/gen_es.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/gen_es.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gs/hive_increase/gen_es.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="193" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -710,222 +625,60 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="170" />
+      <option name="time" value="202" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>&quot;wc -l %s/%s_update_u.csv&quot;%(self.csvpath,tb)</expression-string>
+        <expression-string>term.strip(self.__FIELD_TERMINATER_UNIQ)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.popen(&quot;wc -l %s/%s_update_u.csv&quot;%(self.csvpath,tb))</expression-string>
+        <expression-string>term.strip(&quot;'&quot;).strip(self.__FIELD_TERMINATER_UNIQ)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.popen(&quot;wc -l %s/%s_update_u.csv&quot;%(self.csvpath,tb)).read().splitlines()</expression-string>
+        <expression-string>term.strip(&quot;'&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(lcols)</expression-string>
+        <expression-string>term.startswith(&quot;'&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hcols</expression-string>
+        <expression-string>w_update_res.split()[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.common_tab.count(tb)</expression-string>
+        <expression-string>idname[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>elf.common_tab.count(tb)</expression-string>
+        <expression-string>len(idname[1])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.common_tab.index(tb)</expression-string>
+        <expression-string>idname[2]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(matchObj.group(1))</expression-string>
+        <expression-string>idname[2].startswith('\'个体')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gs/test_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/20180401_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="0" column="43728" lean-forward="false" selection-start-line="0" selection-start-column="43728" selection-end-line="0" selection-end-column="43728" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/ana_20180401.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/company_delete.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/es_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/201804011_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12390">
-          <caret line="0" column="42305" lean-forward="false" selection-start-line="0" selection-start-column="42305" selection-end-line="0" selection-end-column="42305" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180322/ana_20180322.sql" />
-    <entry file="file://$PROJECT_DIR$/gs/20180322/company_check_info_wrong.csv" />
-    <entry file="file://$PROJECT_DIR$/gs/20180401/company_update_u.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1590">
-          <caret line="1779" column="578" lean-forward="false" selection-start-line="1779" selection-start-column="0" selection-end-line="1779" selection-end-column="578" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/company_update.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/company_wrong.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180322/hqc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180322/hql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/yc/segment_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/20180401_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="0" column="1407" lean-forward="false" selection-start-line="0" selection-start-column="1407" selection-end-line="0" selection-end-column="1407" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180401/u20180401.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="6" column="171179" lean-forward="false" selection-start-line="6" selection-start-column="171179" selection-end-line="6" selection-end-column="171179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20180322/20180322_1.sql">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="191">
-          <caret line="17" column="18792" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/extra_data/exdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gs/20181/update_id.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -947,55 +700,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="101" lean-forward="false" selection-start-line="0" selection-start-column="100" selection-end-line="0" selection-end-column="101" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_load_hive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#23#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_arg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_compare.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_hive_get.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_update_u.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1031,34 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gs/20181/human_hive_get.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/compare_num.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/hivenum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1070,10 +750,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gs/20181/human_compare.txt">
+    <entry file="file://$PROJECT_DIR$/gs/extra_data/names.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="-570">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_compare.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1086,60 +782,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py">
+    <entry file="file://$PROJECT_DIR$/gs/20181/human_compare.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="166" lean-forward="false" selection-start-line="0" selection-start-column="166" selection-end-line="0" selection-end-column="166" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_compare.py">
+    <entry file="file://$PROJECT_DIR$/gs/20181/splitinfo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="570">
+          <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_hive.py">
+    <entry file="file://$PROJECT_DIR$/gs/20181/es_info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_update_u.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_change_info_hive_get.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="468" column="16" lean-forward="false" selection-start-line="468" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/1es_info.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="308">
+          <caret line="5967" column="45" lean-forward="true" selection-start-line="5966" selection-start-column="0" selection-end-line="5971" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/es_gen_t.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/es_gen.txt">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-930">
+          <caret line="41" column="70" lean-forward="true" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/es_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/hivenum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/1compare_num.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20180302/mortgage_change_info_delete.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20180302/mortgage_pawn_info_delete.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_change_record_delete.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_change_record_wrong.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_equity_change_info_update.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_equity_change_info_wrong.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_equity_change_info_update_u.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5490">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/201803012/report_change_record_update_u.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_load_hive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_arg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/test_gen_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/20181_0.sql">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6318">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_update_u.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="300">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_category_20170411_delete.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_abnormal_info_update.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_abnormal_info_delete.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20181/company_abnormal_info_update_u.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gs/hive_increase/gen_es.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="300">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gs/hive_increase/gen_csv.py">
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_num_compare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+        <state relative-caret-position="373">
+          <caret line="70" column="65" lean-forward="false" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20180324/hqload.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="122" column="54" lean-forward="false" selection-start-line="122" selection-start-column="54" selection-end-line="122" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/20180324/hqcopy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="13" column="75" lean-forward="false" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/hive_increase/load_hive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gs/hive_increase/send_mail_check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="98" column="32" lean-forward="true" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="e#41#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gs/extra_data/names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="673">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
