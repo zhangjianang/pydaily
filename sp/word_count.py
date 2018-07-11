@@ -6,7 +6,7 @@ sys.setdefaultencoding('utf-8')
 import re,os
 
 from pyspark import SparkContext
-sc = SparkContext( 'local', 'test')
-textFile = sc.textFile("file:///usr/local/spark/mycode/wordcount/word.txt")
+sc = SparkContext('local', 'test')
+textFile = sc.textFile("file:///F:/ang.log")
 wordCount = textFile.flatMap(lambda line: line.split(" ")).map(lambda word: (word,1)).reduceByKey(lambda a, b : a + b)
-wordCount.foreach(print)
+print(wordCount.foreach(lambda x:x))
